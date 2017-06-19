@@ -1,6 +1,6 @@
 package pl.edu.agh.iet.akka_tracing.tutorial.actors
 
-import akka.actor.{ActorRef, Props, Actor}
+import akka.actor.{ Actor, ActorRef, Props }
 
 object FirstActor {
   def props(actorRef: ActorRef): Props = Props(classOf[FirstActor], actorRef)
